@@ -28,3 +28,6 @@ const moyenne = Object.entries(scores).reduce((acc, [matiere, note]) => {
 
 scores.forEach(element => console.log(`${matiere} : ${note} il faut beau aujourdui`));
 let test = "Le branch marche tu?"
+for(let i =0; i < 10; i++){
+  console.log(i);
+}
